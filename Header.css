@@ -1,0 +1,33 @@
+.mainn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(219, 216, 216);  
+    max-width: 100vw;
+    height:120px 
+    /* padding-left: 20px; */
+    /* padding-top: 10px; */
+}
+.main1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.right
+{
+    margin-right:100px
+}
+.margin
+{
+    margin:0px 15px;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 500px;
+}
+
+@media (max-width:1024px){
+    .mainn{
+        display: block;    }
+}
